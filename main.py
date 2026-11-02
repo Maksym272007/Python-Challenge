@@ -4,6 +4,9 @@ def greet(name):
 def farewell(name):
     return f"Bye, {name}!"
 
+def welcome():
+    return "Welcome to my Python project!"
+
 try:
     input_name = input("Enter name: ")
 
