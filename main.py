@@ -7,7 +7,7 @@ def farewell(name):
 try:
     input_name = input("Enter name: ")
 
-    if input_name == "":
+    if not input_name.strip():
         raise ValueError("You write nothing!")
 except ValueError as error:
     print(f"Error: {error}")
